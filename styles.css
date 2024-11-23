@@ -68,7 +68,7 @@ header .icons a {
 }
 
 .hero-image img {
-  max-width: 80%;
+  max-width: 70%;
   height: auto;
   border-radius: 10px;
 }
@@ -249,4 +249,3 @@ footer p {
     width: 80%; /* Adjusts the width of contact info sections for smaller screens */
   }
 }
-
