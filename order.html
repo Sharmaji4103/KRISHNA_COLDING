@@ -46,7 +46,7 @@
         });
         orderDetails += `\nTotal: RS ${totalPrice}`;
 
-        // Create a WhatsApp link with the pre-filled order message
+        // Your WhatsApp phone number with country code +91
         const phoneNumber = '+91 8758841041'; // Replace with your business WhatsApp number
         const message = encodeURIComponent(orderDetails);
         const whatsappLink = `https://wa.me/${phoneNumber}?text=${message}`;
@@ -217,4 +217,3 @@
   </footer>
 </body>
 </html>
-
